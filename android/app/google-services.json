@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "21481405329",
+    "firebase_url": "https://fingerprintapp-e7874.firebaseio.com",
+    "project_id": "fingerprintapp-e7874",
+    "storage_bucket": "fingerprintapp-e7874.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21481405329:android:da0bd02e1b1058b9",
+        "android_client_info": {
+          "package_name": "com.fingerprintapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21481405329-shi9q0rs63f8r00o9qo3fcfu7rd5v52b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMNkQKTOBYFuydn2sH0oQ6SvSRv0MQj4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
