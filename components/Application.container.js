@@ -5,7 +5,7 @@ import FingerprintScanner from "react-native-fingerprint-scanner";
 import styles from "./Application.container.styles";
 import FingerprintPopup from "./FingerprintPopup.component";
 import axios from "axios";
-
+import keys from "../helpers/apiKeys";
 import {NotificationsAndroid, PendingNotifications} from 'react-native-notifications';
 
 
@@ -53,7 +53,7 @@ class Application extends Component {
   async componentDidMount() {
     await axios
       .get(
-        "https://api.thingspeak.com/channels/716191/feeds.json?api_key=HWWSQJ5HLUEEOCYC"
+          `https://api.thingspeak.com/channels/716191/feeds.json?api_key=${keys.inputRead}`
       )
       .then(response => {
         console.log("response on mount", response.data.feeds);
